@@ -1,4 +1,4 @@
-#include<stidio.h>
+#include <stidio.h>
 int main(){
 float num;
 scanf("%d",&d);
