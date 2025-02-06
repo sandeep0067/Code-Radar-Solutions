@@ -7,7 +7,7 @@ int main() {
     if(a>=0&&b>=0||a<=0&&b<=0){
         printf("False");
     }
-    esle{
+    else{
         printf("True");
     }
     return 0;
