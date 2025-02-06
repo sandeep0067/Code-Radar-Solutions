@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+
+int main() {
+    int a,b;
+    if(a||b>0){
+        prntf("True");
+    }
+    else{
+        printf("False");
+    }
+    return 0;
+}
