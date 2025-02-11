@@ -10,6 +10,7 @@ int main() {
     for(int k=0;k<j*2+1;k++){
         printf("*");
     }
+    printf("\n");
    }
     return 0;
 }
