@@ -1,15 +1,18 @@
-// Your code here...
+
+
+
 #include <stdio.h>
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int num=0;
-    for(int i=0;i<n;i--){
-        for(int j=0;j<i;j++){
-            num++;
-            printf("%d ",num);
+    scanf("%d", &n);
+
+    for (int i = n; i >= 1; i--) { // Rows decrease from n to 1
+        for (int j = 1; j <= i; j++) { // Print numbers from 1 to i
+            printf("%d ", j);
         }
-printf("\n");
+        printf("\n");
     }
+
     return 0;
 }
