@@ -8,7 +8,7 @@ int main(){
     else if(isalpha(a)){
         int ch;
         ch=tolower(a);
-        if(a==a||a==e||a==i||a==o||a==u)
+        if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
             printf("Vowel");
         else
             printf("consonant");
