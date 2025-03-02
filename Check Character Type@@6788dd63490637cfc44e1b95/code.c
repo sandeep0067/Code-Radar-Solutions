@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int main(
+int main(){
     char a;
     scanf("%d",&a);
     if(isdigit(a))
@@ -16,4 +16,4 @@ int main(
     else
         printf("Special Character");
     return 0;
-)
+}
