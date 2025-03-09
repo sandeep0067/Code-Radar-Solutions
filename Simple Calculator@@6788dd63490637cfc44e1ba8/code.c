@@ -12,5 +12,7 @@ int main(){
         printf("%d",b-a);
     else if(c=='/')
         printf("%d",b/a);
+    else 
+        printf("error");
 
 }
