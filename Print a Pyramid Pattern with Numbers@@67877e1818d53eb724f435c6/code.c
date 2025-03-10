@@ -6,4 +6,5 @@ int main(){
     for(int i=1;i<=n-i;i++){
       printf("P");
     }
+    printf("\n");
 }
