@@ -13,7 +13,17 @@ int main(){
         for(int k=0;k<i;k++){
             printf("*");
         }
+        
         printf("\n");
+         for(int j=1;j>n-i;j--){
+            printf(" ");
+        }
+        for(int k=0;k>=i;k--){
+            printf("*");
+        }
+        for(int k=0;k>i;k--){
+            printf("*");
+        }
         
     }
 }
