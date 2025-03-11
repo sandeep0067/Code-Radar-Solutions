@@ -24,7 +24,7 @@ int main(){
         for(int k=i;k>0;k--){
             printf("*");
         }
-        for(int k=i;k>0;k--){
+        for(int k=i;k>=0;k--){
             printf("*");
         }
         
