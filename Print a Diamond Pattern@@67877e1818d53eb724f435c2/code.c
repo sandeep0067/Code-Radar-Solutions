@@ -17,16 +17,17 @@ int main(){
         printf("\n");
     
     }
-     for(int i=0;i<n;i++){
-        for(int j=1;j<n-i;j++){
+     for(int i=n;i>0;i--){
+        for(int j=i;j>0;j--){
             printf(" ");
         }
-        for(int k=0;k<=i;k++){
+        for(int k=i;k>0;k--){
             printf("*");
         }
-        for(int k=0;k<i;k++){
+        for(int k=i;k>0;k--){
             printf("*");
         }
         
         printf("\n");     
-}}
+}
+}
