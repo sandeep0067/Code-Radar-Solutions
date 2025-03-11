@@ -15,15 +15,18 @@ int main(){
         }
         
         printf("\n");
-         for(int j=1;j>n-i;j--){
+        for(int j=1;j<n-i;j++){
             printf(" ");
         }
-        for(int k=0;k>=i;k--){
+        for(int k=0;k<=i;k++){
             printf("*");
         }
-        for(int k=0;k>i;k--){
+        for(int k=0;k<i;k++){
             printf("*");
         }
+        
+        printf("\n");
+        
         
     }
 }
